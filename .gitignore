@@ -1,36 +1,19 @@
 *.*
 
 !README.md
-!xxx_vscode_xxx.bat
-!.gitignore
 
 # phase portraits
-!phase_portraits/pictures/*.*
-!phase_portraits/HOW_TO_MESHGRID.ipynb
-!phase_portraits/jak_dziala_meshgrid.png
-!phase_portraits/pomocy.ipynb
-!phase_portraits/print_size_mb.py
-!phase_portraits/HOWTOquiver_streamplt_levelcurves.ipynb
-!phase_portraits/slicer_ver1.py
-!phase_portraits/slices_ver5_nb.ipynb
-!phase_portraits/state_equations.jpg
+!phase_portraits/**
+phase_portraits/__pycache__
 
 # model derivation
-!model_derivation/state_equations.jpg
-!model_derivation/001_deriviation_script.py
-!model_derivation/001_model_derivation.ipynb
-!model_derivation/system_diagram.png
+!model_derivation/*
+model_derivation/.ipynb_checkpoints
 
-# speed test
-!speed_test/*.*
+# matlab
+!matlab/**
+matlab/zasady_dystrybucji.txt
 
-# animation
-!animations/invertedPendulum/invertedPendulum3_AOF.py
-!animations/invertedPendulum/step.py
-!animations/PENDULUM_ANIM_GIF.gif
-!animations/state_equations.jpg
-!animations/000_pendulum_animation_main.py
-!animations/pretty_plot.py
-
-#
-!scipy_odeint_sivp_examples
+# python animations
+!1_ip_animation_python/**
+!2_ip_aniamtion_python/**

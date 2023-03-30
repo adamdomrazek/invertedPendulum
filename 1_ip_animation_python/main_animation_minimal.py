@@ -38,7 +38,7 @@ end_time = 20      # [sek]
 dt = 0.005        # [sek]
 SAVE_DPI = 100
 
-save = False
+save = True
 show_i = True
 
 slow_down = False
@@ -79,7 +79,7 @@ t_vec = np.arange(0, end_time+dt, dt)
 plt.rcParams['animation.html'] = 'html5'
 # plt.rcParams['lines.antialiased'] = True
 
-fig, (ax, ax2) = plt.subplots(nrows=1, ncols=2, figsize=(16,8), facecolor='#caccca', dpi=50)
+fig, ax = plt.subplots(nrows=1, ncols=1, figsize=(16,8), facecolor='#caccca', dpi=50)
 
 ax.set_aspect('equal')
 ax.autoscale(0)
@@ -151,9 +151,9 @@ fps_save = 1/delay_between_frames_ms * 1000
 
 if save:
     if slow_down:
-        ani_a.save('./animations_2/'+filename,fps=fps_save/slow_down_factor, dpi=SAVE_DPI)
+        ani_a.save('./1_ip_animation_python/'+filename,fps=fps_save/slow_down_factor, dpi=SAVE_DPI)
     else:
-        ani_a.save('./animations_2/'+filename,fps=fps_save, dpi=SAVE_DPI)
+        ani_a.save('./1_ip_animation_python/'+filename,fps=fps_save, dpi=SAVE_DPI)
 
 if show_i:
     plt.show()

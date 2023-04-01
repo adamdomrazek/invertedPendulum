@@ -12,3 +12,4 @@ Some phase portraits:
 <img src="phase_portraits/pictures/cos_b_1_gamma_0_5_ZERO.png"
      alt="pp1"
      style="float: left; margin-right: 10px;" />   
+.
